@@ -1,0 +1,7 @@
+{
+    "llama2-7b-chat-4k": 3500,
+    "llama2-13b-chat-4k": 3500,
+    "llama3.1-8b-128k": 127500,
+    "mistral-0.3-7b-32k": 31500,
+    "qwen2.5-7b-instruct": 31500
+}

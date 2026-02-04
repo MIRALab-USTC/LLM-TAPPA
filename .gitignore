@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# logs / tmp
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# outputs / checkpoints (按需调整)
+outputs/
+checkpoints/
+runs/
+*.pt
+*.ckpt
+*.bin
+
+# data (按需调整)
+data/
+EOF

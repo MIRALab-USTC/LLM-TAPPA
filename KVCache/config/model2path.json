@@ -1,0 +1,7 @@
+{
+    "llama2-7b-chat-4k": "/models/Llama-2-7b-chat-hf",
+    "llama2-13b-chat-4k": "/models/Llama-2-13b-chat-hf",
+    "llama3.1-8b-128k": "/models/Meta-Llama-3___1-8B-Instruct",
+    "mistral-0.3-7b-32k": "/models/Mistral-7B-Instruct-v0.3",
+    "qwen2.5-7b-instruct": "/models/Qwen2.5-7B-Instruct"
+}
