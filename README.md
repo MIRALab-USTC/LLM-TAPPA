@@ -19,7 +19,8 @@ TAPPA provides a unified temporal perspective to explain diverse attention patte
 
 - **[2026.01.26]** TAPPA is published as a conference paper at **ICLR 2026**.
 - **[2026.02.04]** Initial open-source release: **KVCache** module (q-similarity guided budget allocation).
-- **[TODO]** Release **Prune** and **Visualization** modules (see roadmap).
+- **[2026.02.04]** Release **Prune** module (TAPPA-guided structural pruning).
+- **[TODO]** Release **Visualization** module (see roadmap).
 
 ## Overview
 
@@ -57,7 +58,7 @@ This repository is organized into three modules:
 | Module             |       Status | Description                                                                                     |
 | ------------------ | -----------: | ----------------------------------------------------------------------------------------------- |
 | `KVCache/`       | ✅ Available | KV cache compression code and scripts related to q-similarity guided budget allocation.         |
-| `Prune/`         |      ⏳ TODO | Structural pruning code used in TAPPA-guided pruning experiments.                               |
+| `Prune/`         | ✅ Available | Structural pruning code used in TAPPA-guided pruning experiments.                               |
 | `Visualization/` |      ⏳ TODO | Visualization utilities for attention patterns, q-similarity statistics, and pattern galleries. |
 
 ## Getting Started
@@ -65,7 +66,7 @@ This repository is organized into three modules:
 For installation and reproduction, please follow the module-level documentation:
 
 - **KV cache compression:** `KVCache/README.md`
-- **Pruning (planned):** `Prune/README.md`
+- **Pruning:** `Prune/README.md`
 - **Visualization (planned):** `Visualization/README.md`
 
 ## Related Project: AttentionPredictor

@@ -1,0 +1,245 @@
+{
+  "description": "Layer removal sets reported in the TAPPA structural pruning table. Layers are listed as removed layer ids.",
+  "default_n_prune_layers": 10,
+  "orders": {
+    "llama-2-7b": {
+      "ShortGPT": {
+        "BI": {
+          "source": "ShortGPT baseline removed layers from the pruning table.",
+          "pruning_ratios": {
+            "10": "31%",
+            "11": "34%"
+          },
+          "orders": {
+            "10": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "11": [
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        }
+      },
+      "TAPPA": {
+        "BI+0.2q": {
+          "beta": 0.2,
+          "source": "TAPPA removed layers from the pruning table.",
+          "pruning_ratios": {
+            "10": "31%",
+            "11": "34%"
+          },
+          "orders": {
+            "10": [
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "11": [
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        }
+      }
+    },
+    "llama-3.1-8b": {
+      "ShortGPT": {
+        "BI": {
+          "source": "ShortGPT baseline removed layers from the pruning table.",
+          "pruning_ratios": {
+            "9": "28%",
+            "10": "31%"
+          },
+          "orders": {
+            "9": [
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "10": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        }
+      },
+      "TAPPA": {
+        "BI+0.3q": {
+          "beta": 0.3,
+          "source": "TAPPA removed layers from the pruning table.",
+          "pruning_ratios": {
+            "9": "28%",
+            "10": "31%"
+          },
+          "orders": {
+            "9": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "10": [
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ]
+          }
+        }
+      }
+    },
+    "qwen-2.5-7b": {
+      "ShortGPT": {
+        "BI": {
+          "source": "ShortGPT baseline removed layers from the pruning table.",
+          "pruning_ratios": {
+            "11": "39%",
+            "12": "43%"
+          },
+          "orders": {
+            "11": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              14,
+              15,
+              20
+            ],
+            "12": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              23
+            ]
+          }
+        }
+      },
+      "TAPPA": {
+        "BI+0.1q": {
+          "beta": 0.1,
+          "source": "TAPPA removed layers from the pruning table.",
+          "pruning_ratios": {
+            "11": "39%",
+            "12": "43%"
+          },
+          "orders": {
+            "11": [
+              4,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20
+            ],
+            "12": [
+              4,
+              5,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20
+            ]
+          }
+        }
+      }
+    }
+  },
+  "raw_score_files": {
+    "llama-2-7b": {
+      "BI": "prune_orders/raw_scores/llama-2-7b_bi.json",
+      "q_similarity": "prune_orders/raw_scores/llama-2-7b_q_similarity.json"
+    },
+    "llama-3.1-8b": {
+      "BI": "prune_orders/raw_scores/llama-3.1-8b_bi.json",
+      "q_similarity": "prune_orders/raw_scores/llama-3.1-8b_q_similarity.json"
+    },
+    "qwen-2.5-7b": {
+      "BI": "prune_orders/raw_scores/qwen-2.5-7b_bi.json",
+      "q_similarity": "prune_orders/raw_scores/qwen-2.5-7b_q_similarity.json"
+    }
+  }
+}

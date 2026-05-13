@@ -1,0 +1,3 @@
+{
+  "lm_eval": ["piqa", "hellaswag", "arc_easy", "winogrande"]
+}
